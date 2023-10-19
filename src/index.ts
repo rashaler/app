@@ -1,3 +1,4 @@
+// RESTFUL API package
 import { Elysia } from "elysia";
 
 const app = new Elysia().get("/", () => "Hello Bun Dev, I am going to build RESTFUL APIs")
